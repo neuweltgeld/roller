@@ -38,6 +38,7 @@ func init() {
 	rootCmd.AddCommand(sequencer.SequencerCmd())
 	rootCmd.AddCommand(relayer.Cmd())
 	rootCmd.AddCommand(keys.Cmd())
+	rootCmd.AddCommand(importhex.Cmd())
 	rootCmd.AddCommand(run.Cmd())
 	rootCmd.AddCommand(services.Cmd())
 	rootCmd.AddCommand(migrate.Cmd())
